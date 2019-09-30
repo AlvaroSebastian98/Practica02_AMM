@@ -10,6 +10,17 @@ namespace PracticaApp
         public HierchicalNavigation()
         {
             InitializeComponent();
+            btnClose.Clicked += async (sender, e) =>
+            {
+                await Navigation.PopAsync();
+            };
+
         }
+
+        async void OnNextPageButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HierchicalNavigation2());
+        }
+
     }
 }

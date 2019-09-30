@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace PracticaApp
 {
-    public partial class TabbedPage : ContentPage
+    public partial class TabbedDemo : TabbedPage
     {
-        public TabbedPage()
+        public TabbedDemo()
         {
             InitializeComponent();
         }

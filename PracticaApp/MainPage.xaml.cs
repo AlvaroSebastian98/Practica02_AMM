@@ -33,7 +33,7 @@ namespace PracticaApp
             };
             TabbedPage.Clicked += async (sender, e) =>
             {
-                await Navigation.PushAsync(new TabbedPage());
+                await Navigation.PushAsync(new TabbedDemo());
 
             };
             DataForm.Clicked += async (sender, e) =>

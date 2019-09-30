@@ -2,15 +2,14 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="PracticaApp.HierchicalNavigation">
+    x:Class="PracticaApp.HierchicalNavigation2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="First form"
+            <Label Text="Second form"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button Text="Next Page" Clicked="OnNextPageButtonClicked"/>
-            <Button Text="Close" x:Name="btnClose"/>
 
+            <Button Text="Previous Page" Clicked="OnPreviousPageButtonClicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
